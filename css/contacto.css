@@ -1,0 +1,92 @@
+@import url(estilo.css);
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(../imagenes/fondo1.jpg);
+	color: #fff;
+	font-family: 'Shadows Into Light'. cursive;
+	padding: 0 1.5em;
+	padding-top: 39px;
+	background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.content{
+	max-width: 1070px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em;
+}
+.logo{
+	font-family: 'Shadows Into Light'. cursive;
+	text-align: center;
+	font-size: 3rem; 
+}
+.logo span{
+	color: #B6A7EB;
+}
+.contact-wrapper{
+	box-shadow: 0 0 20px 0 rgba(255,255,255, .3);
+	color: black;
+}
+.contact-wrapper > *{
+	padding: 1em;
+}
+.contact-info{
+	background: #B6A7EB;
+}
+.foto{
+	padding: 10px; 
+	margin: 10px; 
+	border: none; 
+	float: right; 
+	width: 250px;
+}
+.contac-form form{
+	margin: 0;
+	padding: 1em;
+}
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+	width: 50%;
+	padding: .7em;
+	border: none;
+	background: none;
+	outline: 0;
+	color: #fff;
+	border-bottom: 1px solid #71D5FD;  
+}
+.contact-form form button{
+	background: #71D5FD;
+	border: 0;
+	text-transform: uppercase;
+	padding: 1em;
+}
+.contact-form form button:hover,
+.contact-form form button:focus{
+	background: #A235FC;
+	color: #fff;
+	transition: background-color 1s ease-out;
+	outline: 0;
+
+}
+.contact-info{
+	background: #B6A7EB;
+}
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+	text-align: center;
+	margin: 0 0 1rem 0;
+}
+.contact.info ul{
+	list-style:none;
+	padding: 0; 
+}
+.contac-info ul li{
+	padding: .3em;
+}
